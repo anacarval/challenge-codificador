@@ -1,0 +1,96 @@
+body {
+    font-family: 'Padauk', sans-serif;
+    background: #5AE4A7;
+    margin-left: 50px;
+}
+
+main {
+    display: block;
+}
+
+header {
+    padding: 20px 20px 0;
+}
+
+.ilutracao {
+    float: right;
+}
+
+.icone {
+    float: left;
+    margin-right: 4px;
+}
+
+h5 {
+    margin: -6px;
+}
+
+textarea {
+    position: relative;
+	width: 600px;
+    height: 150px;
+    border: 2px solid #2c6f5d;
+}
+
+.output-texto {
+    margin-top: 2.5em;
+}
+
+.codificador {
+    width:250px;
+    margin: 0 5px 15px 45px;
+	padding: 15px 15px;
+    background: #effff8;
+	color: #3EA27B;
+	font-weight: bold;
+	font-size: 15px;
+	border: none;
+	border-radius: 5px;
+	transition: 1s all;
+    cursor: pointer;
+}
+
+.codificador:hover {
+	background: #BFF2DA;
+	transform: scale(1.1);
+    color: #22604F
+}
+
+.decodificador {
+    width:250px;
+    margin: 0 5px 15px 5px;
+	padding: 15px 15px;
+	background: #effff8;
+	color: #3EA27B;
+	font-weight: bold;
+	font-size: 15px;
+	border: none;
+	border-radius: 5px;
+	transition: 1s all;
+    cursor: pointer;
+}
+
+.decodificador:hover {
+	background: #BFF2DA;
+	transform: scale(1.1);
+    color: #22604F
+}
+
+.copiartxt {
+    width:250px;
+    margin: 0 5px 15px 165px   ;
+	padding: 15px 15px;
+    background: #5AE4A7;
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size: 15px;
+	border: none;
+	border-radius: 5px;
+	transition: 1s all;
+    cursor: pointer;
+}
+
+.copiartxt:hover {
+    background: #BFF2DA;
+    color: #22604F
+}

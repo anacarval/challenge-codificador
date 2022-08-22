@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Padauk:wght@700&display=swap" rel="stylesheet">
+
+    <title>Encriptador</title>
+</head>
+
+
+<body>
+<img class=ilutracao src="ilustracao.png" alt="Ilustração conceitual" width="830" height="600">
+
+<header>
+    <img src="logo.png" alt="Logo da Alura">
+</header>
+
+<h3>Digite o texto que voce quer codificar ou decodificar</h3>
+
+<main>
+    <section class="frame1">
+      <textarea id="textArea1" class="input-texto"></textarea>
+
+        <div>
+            <p><img class="icone" src="icone.png" width="14" height="14"><h5>Apenas letras minúsculas e sem acento</h5></p>
+        </div>
+
+      <div>
+          <button class="codificador" onclick="btnCodificador()">Codificar</button>
+          <button class="decodificador" onclick="btnDecodificador()">Decodificar</button>
+      </div>
+    </section>
+
+    <section class="frame2">
+        <textarea id="textArea2" class="output-texto"></textarea>
+        <div>
+            <button class="copiartxt" onclick="btnCopiartxt()">Copiar</button>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
